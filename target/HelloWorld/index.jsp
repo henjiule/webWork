@@ -90,7 +90,7 @@
                             class="layui-btn layui-btn-primary">注册</span></a>
                 </div>
             </div>
-            <!-- 更多表单结构排版请移步文档左侧【页面元素-表单】一项阅览 -->
+
         </form>
     </div>
 </div>
