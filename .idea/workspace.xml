@@ -7,21 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e1a54552-71c8-4033-9a51-905f53e4ecb1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/edu/niit/dao/LoginDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/edu/niit/db/JDBCUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/edu/niit/domain/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/edu/niit/service/LoginService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/alert.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bookDetail.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bookList.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/borrowHistory.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/message.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/notification.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/searchBooks.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/HelloWorld/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/HelloWorld/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/edu/niit/domain/Login.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -215,10 +201,6 @@
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               </path>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="library@localhost: root" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              </path>
             </expand>
             <select />
           </treeState>
@@ -251,6 +233,7 @@
       <workItem from="1619422246043" duration="2423000" />
       <workItem from="1619441971801" duration="2599000" />
       <workItem from="1619707888340" duration="643000" />
+      <workItem from="1619749749229" duration="25000" />
     </task>
     <servers />
   </component>
