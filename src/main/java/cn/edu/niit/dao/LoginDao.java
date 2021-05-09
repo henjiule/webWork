@@ -1,7 +1,7 @@
 package cn.edu.niit.dao;
 
 import cn.edu.niit.db.JDBCUtil;
-import cn.edu.niit.domain.User;
+import cn.edu.niit.filter.User;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;

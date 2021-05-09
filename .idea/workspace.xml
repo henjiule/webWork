@@ -10,22 +10,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e1a54552-71c8-4033-9a51-905f53e4ecb1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Java_EE_6_Java_EE_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/edu/niit/service/Loginservice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/edu/niit/servlet/LoginServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/8698d58b-7467-4865-a13e-0ef3fdf4b680.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/8698d58b-7467-4865-a13e-0ef3fdf4b680.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/edu/niit/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/edu/niit/filter/AdminFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/edu/niit/filter/EncodingFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/edu/niit/javabean/Admin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/edu/niit/javabean/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/edu/niit/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/edu/niit/servlet/AdminLoginServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/edu/niit/servlet/FromAjaxservlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/edu/niit/servlet/ResiterServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/cn/edu/niit/dao/LoginDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/edu/niit/dao/LoginDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/edu/niit/db/JDBCUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/edu/niit/db/JDBCUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/edu/niit/domain/Login.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/edu/niit/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/edu/niit/domain/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/edu/niit/service/LoginService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/HelloWorld/searchBooks.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/HelloWorld/searchBooks.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/HelloWorld.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/edu/niit/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/edu/niit/filter/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/edu/niit/service/Loginservice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/edu/niit/service/Loginservice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/edu/niit/dao/LoginDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/edu/niit/domain/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/edu/niit/service/Loginservice.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/edu/niit/servlet/LoginServlet.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -128,11 +130,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="cn.edu.niit.servlet" />
       <recent name="cn.edu.niit.dao" />
       <recent name="cn.edu.niit.domain" />
       <recent name="cn.edu.niit.service" />
       <recent name="servlet" />
-      <recent name="javabean" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\dev\HelloWorld\src\main\java\cn\edu\niit\db" />
@@ -272,7 +274,7 @@
       <workItem from="1619920084575" duration="6536000" />
       <workItem from="1620349326719" duration="2406000" />
       <workItem from="1620522373552" duration="134000" />
-      <workItem from="1620524677427" duration="4312000" />
+      <workItem from="1620524677427" duration="5392000" />
     </task>
     <servers />
   </component>

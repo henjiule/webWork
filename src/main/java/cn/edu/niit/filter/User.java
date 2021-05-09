@@ -1,4 +1,4 @@
-package cn.edu.niit.domain;
+package cn.edu.niit.filter;
 
 /**
  * @ClassName User

@@ -1,7 +1,7 @@
 package cn.edu.niit.service;
 
 import cn.edu.niit.dao.LoginDao;
-import cn.edu.niit.domain.User;
+import cn.edu.niit.filter.User;
 
 /**
  * @ClassName Loginservice
