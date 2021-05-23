@@ -10,24 +10,47 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e1a54552-71c8-4033-9a51-905f53e4ecb1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/edu/niit/dao/UserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/edu/niit/filter/AdminFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/edu/niit/filter/EncodingFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/edu/niit/javabean/Admin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/edu/niit/javabean/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/edu/niit/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/edu/niit/servlet/AdminLoginServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/edu/niit/servlet/FromAjaxservlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/edu/niit/servlet/ResiterServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/edu/niit/dao/BookDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/edu/niit/javabean/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/edu/niit/niit/ConString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/edu/niit/service/BookService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/edu/niit/servlet/PersonalInfoServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/edu/niit/servlet/RegisterServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/edu/niit/servlet/SearchBooksServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/edu/niit/servlet/StoreBookServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/edu/niit/servlet/UserServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/borrowList.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/favoriteList.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jqery-3.5.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/messageBoard.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/personallnfo.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/register.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/userHistory.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/window.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/8698d58b-7467-4865-a13e-0ef3fdf4b680.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/8698d58b-7467-4865-a13e-0ef3fdf4b680/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/8698d58b-7467-4865-a13e-0ef3fdf4b680/storage_v2/_src_/schema/mysql.osA4Bg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/8698d58b-7467-4865-a13e-0ef3fdf4b680/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/8698d58b-7467-4865-a13e-0ef3fdf4b680/storage_v2/_src_/schema/sys.zb4BAA.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/edu/niit/dao/LoginDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/edu/niit/dao/LoginDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/edu/niit/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/edu/niit/filter/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/edu/niit/service/Loginservice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/edu/niit/service/Loginservice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/edu/niit/dao/LoginDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/edu/niit/filter/EncodingFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/edu/niit/filter/EncodingFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/edu/niit/filter/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/edu/niit/service/Loginservice.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/edu/niit/servlet/FromAjaxservlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/edu/niit/servlet/LoginServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/alert.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/bookDetail.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/bookList.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/doLogin.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/message.jsp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/cn/edu/niit/dao/LoginDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/edu/niit/domain/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/edu/niit/filter/EncodingFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/edu/niit/filter/EncodingFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/edu/niit/filter/User.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/cn/edu/niit/service/Loginservice.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/edu/niit/servlet/FromAjaxservlet.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/cn/edu/niit/servlet/LoginServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/edu/niit/servlet/ResiterServlet.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -142,17 +165,6 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Tomcat 9.0.43" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.43" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="1.8" nameIsGenerated="true">
       <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
       <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
@@ -274,7 +286,12 @@
       <workItem from="1619920084575" duration="6536000" />
       <workItem from="1620349326719" duration="2406000" />
       <workItem from="1620522373552" duration="134000" />
-      <workItem from="1620524677427" duration="5392000" />
+      <workItem from="1620524677427" duration="7031000" />
+      <workItem from="1620648559072" duration="595000" />
+      <workItem from="1620690989661" duration="3250000" />
+      <workItem from="1620949779441" duration="1193000" />
+      <workItem from="1621418299783" duration="1969000" />
+      <workItem from="1621506060407" duration="1328000" />
     </task>
     <servers />
   </component>
