@@ -1,10 +1,35 @@
 package cn.edu.niit.filter;
 
-/**
- * @ClassName AdminFilter
- * @Description TODO
- * @Author zhangcong
- * @Date 2021/5/9
- **/
-public class AdminFilter {
+import javax.servlet.*;
+import javax.servlet.annotation.WebFilter;
+import java.io.IOException;
+
+@WebFilter(filterName = "AdminFilter", urlPatterns = "/login")
+public class AdminFilter implements Filter {
+    @Override
+    public void init(FilterConfig filterConfig) throws ServletException {
+
+    }
+
+    @Override
+    public void doFilter(ServletRequest req,
+                         ServletResponse resp,
+                         FilterChain chain) throws IOException,
+            ServletException {
+
+        String role = req.getParameter("role");
+
+        if ("0".equals(role)) {
+            req.getRequestDispatcher(
+                    "/admin/login").forward(req, resp);
+        } else {
+            req.getRequestDispatcher("/login"
+            ).forward(req, resp);
+        }
+    }
+
+    @Override
+    public void destroy() {
+
+    }
 }

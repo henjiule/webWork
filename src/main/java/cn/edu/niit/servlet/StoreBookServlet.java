@@ -1,7 +1,8 @@
 package cn.edu.niit.servlet;
 
 import cn.edu.niit.service.BookService;
-import sun.misc.IOUtils;
+import com.alibaba.fastjson.JSON;
+import org.apache.commons.io.IOUtils;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -11,12 +12,6 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.util.HashMap;
 
-/**
- * @ClassName StoreBookServlet
- * @Description TODO
- * @Author zhangcong
- * @Date 2021/5/11
- **/
 @WebServlet(name = "StoreBookServlet", urlPatterns = "/book/store")
 public class StoreBookServlet extends HttpServlet {
 

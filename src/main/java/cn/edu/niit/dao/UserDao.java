@@ -7,12 +7,6 @@ import cn.edu.niit.javabean.User;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 
-/**
- * @ClassName UserDao
- * @Description TODO
- * @Author zhangcong
- * @Date 2021/5/9
- **/
 public class UserDao {
 
     public User selectOne(String username) {

@@ -2,7 +2,8 @@ package cn.edu.niit.servlet;
 
 import cn.edu.niit.javabean.Book;
 import cn.edu.niit.service.BookService;
-import sun.misc.IOUtils;
+import com.alibaba.fastjson.JSON;
+import org.apache.commons.io.IOUtils;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -14,12 +15,6 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 
-/**
- * @ClassName SearchBooksServlet
- * @Description TODO
- * @Author zhangcong
- * @Date 2021/5/11
- **/
 @WebServlet(name = "SearchBooksServlet", urlPatterns = "/book/search")
 public class SearchBooksServlet extends HttpServlet {
 

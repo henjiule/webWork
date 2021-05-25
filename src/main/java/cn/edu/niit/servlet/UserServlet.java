@@ -9,12 +9,6 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
-/**
- * @ClassName UserServlet
- * @Description TODO
- * @Author zhangcong
- * @Date 2021/5/11
- **/
 @WebServlet(name = "LoginServlet", urlPatterns = "/login")
 public class UserServlet extends HttpServlet {
 

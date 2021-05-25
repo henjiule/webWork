@@ -10,12 +10,6 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.net.URLEncoder;
 
-/**
- * @ClassName AdminLoginServlet
- * @Description TODO
- * @Author zhangcong
- * @Date 2021/5/6
- **/
 @WebServlet(name = "AdminLoginServlet", urlPatterns = "/admin/login")
 public class AdminLoginServlet extends HttpServlet {
 

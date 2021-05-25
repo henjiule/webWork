@@ -3,18 +3,12 @@ package cn.edu.niit.dao;
 import cn.edu.niit.db.JDBCUtil;
 import cn.edu.niit.javabean.Book;
 
+import java.sql.Date;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ArrayList;
-import java.util.Date;
 import java.util.List;
 
-/**
- * @ClassName BookDao
- * @Description TODO
- * @Author zhangcong
- * @Date 2021/5/11
- **/
 public class BookDao {
     public List<Book> selectAll(int pageNum, int pageSize) {
         String sql = "select books.*, book_sort.name as sort " +

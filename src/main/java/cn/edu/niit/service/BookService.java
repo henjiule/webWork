@@ -5,12 +5,6 @@ import cn.edu.niit.javabean.Book;
 
 import java.util.List;
 
-/**
- * @ClassName BookService
- * @Description TODO
- * @Author zhangcong
- * @Date 2021/5/11
- **/
 public class BookService {
     private BookDao bookDao = new BookDao();
 
