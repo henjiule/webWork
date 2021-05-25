@@ -10,42 +10,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e1a54552-71c8-4033-9a51-905f53e4ecb1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/edu/niit/dao/LoginDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/edu/niit/dao/RegisterDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/edu/niit/service/LoginService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/edu/niit/service/RegisterService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/edu/niit/servlet/FromAjaxservlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/edu/niit/servlet/LoginServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/edu/niit/util/ConString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/HelloWorld_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/HelloWorld_war_exploded.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/edu/niit/dao/BookDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/edu/niit/dao/BookDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/edu/niit/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/edu/niit/dao/UserDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/edu/niit/filter/AdminFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/edu/niit/filter/AdminFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/edu/niit/javabean/Admin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/edu/niit/javabean/Admin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/edu/niit/javabean/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/edu/niit/javabean/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/edu/niit/javabean/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/edu/niit/javabean/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/edu/niit/service/BookService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/edu/niit/service/BookService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/edu/niit/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/edu/niit/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/edu/niit/servlet/AdminLoginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/edu/niit/servlet/AdminLoginServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/edu/niit/servlet/PersonalInfoServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/edu/niit/servlet/PersonalInfoServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/edu/niit/servlet/RegisterServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/edu/niit/servlet/RegisterServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/edu/niit/servlet/SearchBooksServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/edu/niit/servlet/SearchBooksServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/edu/niit/servlet/StoreBookServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/edu/niit/servlet/StoreBookServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/edu/niit/servlet/UserServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/edu/niit/servlet/UserServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/personallnfo.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/personalInfo.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/edu/niit/dao/BookDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/edu/niit/dao/UserDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/edu/niit/filter/AdminFilter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/edu/niit/filter/EncodingFilter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/edu/niit/javabean/Admin.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/edu/niit/javabean/Book.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/edu/niit/javabean/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/edu/niit/niit/ConString.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/edu/niit/service/BookService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/edu/niit/service/UserService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/edu/niit/servlet/AdminLoginServlet.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,9 +80,6 @@
         <option name="userSettingsFile" value="D:\gongju\apache-maven-3.6.3\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
-  </component>
-  <component name="ProblemsViewState">
-    <option name="selectedIndex" value="1" />
   </component>
   <component name="ProjectId" id="1qVnoDiMVF2JSol9I3kDSh3bnnF" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -304,7 +266,7 @@
       <workItem from="1621506060407" duration="1328000" />
       <workItem from="1621758147105" duration="1075000" />
       <workItem from="1621815581296" duration="4235000" />
-      <workItem from="1621901380088" duration="1792000" />
+      <workItem from="1621901380088" duration="2530000" />
     </task>
     <servers />
   </component>
